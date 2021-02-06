@@ -1,4 +1,4 @@
-![freeShop](https://notabug.org/evi/freeShop/raw/master/res/app/banner.png)
+![freeShop](https://github.com/Ghost0159/freeshop/raw/master/res/app/banner.png)
 
 Open source eShop alternative for the Nintendo 3DS. Allows you to browse and install titles you own (i.e. titles for which you have the titlekey).
 
