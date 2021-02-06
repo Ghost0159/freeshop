@@ -1,0 +1,6 @@
+• Theming support (WIP...)
+• AZERTY and QWERTY keyboards (Chinese soon)
+• Fixed some bugs:
+  - No internet connection loop bug
+  - German language
+• Informations on the top screen (Time, TWL NAND and SD size)

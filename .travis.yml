@@ -1,0 +1,25 @@
+os:
+- linux
+language: cpp
+sudo: required
+services:
+- docker
+before_install:
+- docker pull thecruel/cpp3ds
+script:
+- docker run --rm -v "$PWD":/usr/project -w /usr/project thecruel/cpp3ds sh .build.sh
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+before_deploy:
+- export RELEASE_FILENAME=freeShop-$TRAVIS_TAG.cia
+- sudo chmod 777 bin/freeshop.cia
+- sudo mv bin/freeshop.cia $RELEASE_FILENAME
+deploy:
+  provider: releases
+  api_key:
+    secure: E6jAqdQ5TC/YnBhsvNSdqSRDsIFzyLCDgYIY521L7DeeI7MyekjZG972Wd5upGtBDFsgACK5I7DjgKhwElo8ZaFRgiCu/RPA/PCz2qd7VJLs7jxUd2a5sh5POo1WdZ72/6F5Gg/p70mHCwSEU+u3r5QgRWn62i3dEKFNIKZRFIKoXn7eCLeqsABD7gusTDjIVpJxc9rD2WWrBxXo75Ro1o0qHunVZyD2kdSkI04OnYR5lLEq8LJtZ42UO0hUgQqGFZg1J0ssY7dO6jHLHjz0UbdkIwfb3GQB7O7YpDfU8yLp30C5j4o6vXSQR2aTOqmloP3Q2AaDXApx4c3YZEGrPVjvWS+M6s316qtiXNvGHWBr1PgecUJn67Ja1bYbM7wTym61bydNvLm1oCPUDGH2/K7Vb5fedTacvg72WgVn2kSvnKTrIjgv10RaJiV0qmA7/CEScUtnJBr1jJShE/mGhB2s7n/oHjemCVeOsca/d5yYqQ8mexo7qwopjOD+ux/0JoQCQPdVHO6ZZBWK4i3Jb6WIsETGEkwMyuQRhPR2B8THk6D+hlKjDgtP672TmCHt63zkoUvwwPI5H0o2J52ABizK8fn3Zcsc67+ggRgOkf/2wfPZrkpuRnUg197weJS/l3ro1y4GDhBnh6Bbb81qV+aYWpnvshaffGJq0MV1qW8=
+  file: $RELEASE_FILENAME
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: Cruel/freeShop

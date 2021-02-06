@@ -1,0 +1,17 @@
+4.1.0 changes:
+- Changed cache storage to sdmc:/3ds/freeShop since nobody uses data folders anymore for homebrew.
+- Updated the application to display the new version properly.
+- If your settings are broken after install, move the sdmc:/3ds/data/freeShop folder to sdmc:/3ds/freeShop using your computer or GM9.
+
+4.0.0 changes:
+If you are reading this, you have succesfully updated to the Community Edition of freeShop.
+
+No major changes have been made for the end user.
+
+For developers there is now a Vagrantfile available to simplify development and building of cpp3ds/3ds_portlibs. 
+
+See the wiki of the fork for details.
+
+Oh and this as per usual:
+
+- Further improvements to overall system stability and other minor adjustments.

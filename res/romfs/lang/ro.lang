@@ -1,0 +1,699 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Aștepând o conexiune la internet... %.0fs
+
+Fetching news for %s ...
+Căutând știri pentru %s ...
+
+Loading game list...
+Încărcând lista de jocuri...
+
+Looking for freeShop update...
+Căutând actualizări de freeShop...
+
+Installing freeShop %s ...
+Instalând freeShop %s ...
+
+Failed to install update: 0x%08lX
+Eșec în instalarea actualizării: 0x%08lX
+
+Checking latest cache...
+Verificând cel mai recent cache...
+
+Downloading latest cache: %s...
+Descărcând cel mai recent cache: %s...
+
+Extracting latest cache...
+Extrăgând cel mai recent cache...
+
+Downloading title keys...
+Descărcând title key-urile...
+
+Loading services...
+Încărcând serviciile...
+
+Loading theme manager...
+Încărcând administratorul de teme...
+
+Press the A button to enable WiFi
+Apăsați butonul A pentru a porni WiFi-ul
+
+The freeShop wasn't closed correctly the last time.\nDelete the %s folder\nand/or reinstall freeShop if the problem persists.
+freeShop nu a fost închis corect ultima dată.\nȘtergeți folderul %s\nși/sau reinstalați freeShop dacă problema persistă.
+
+Press the B button to open System Settings
+Apăsați butnoul B pentru a deschide System Settings
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Nu s-au găsit title key-uri.\nVerificați să aveți key-urile în\n%s\n\nCopiați manual în folderul\nsau verificați setările\nși introduceți un URL\npentru a descărca title key-urile.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Nu s-au găsit intrări\npentru title key-uri.\n\nÎncercați să actualizați cache-ul în setări.\nDacă asta nu funcționează, atunci\njocurile dumneavoastră nu\nvor funcționa în prezent cu freeShop.
+
+Queued install: %s
+Instalare adăugată la rând: %s
+
+Already installed: %s
+Deja instalat: %s
+
+Already in downloading: \n%s
+Deja în descărcare: \n%s
+
+Type a game name...
+Scrieți numele jocului...
+
+Type a game Title ID...
+Scrieți Title ID-ul jocului...
+
+This song file type isn't supported.
+Acest tip de fișier audio nu este compatibil.
+
+Loading installed game list...
+Încărcând lista de jocuri instalate...
+
+Welcome, %s
+Bun venit, %s
+
+# src/AppStats.cpp
+##################
+Ratings
+Evaluări
+
+Preferences
+Preferințe
+
+• Who do you think this title appeals to?
+Cui credeți că acest joc aderă mai mult?
+
+• What kind of play style is this title more suited for?
+Ce stil aderă cel mai mult la acest joc?
+
+Everyone - %i%%
+Tuturor - %i%%
+
+Casual - %i%%
+Casuali - %i%%
+
+%i%% - Gamers
+%i%% - Gameri
+
+%i%% - Intense
+%u%% - Intensivi
+
+Average score
+Punctaj mediu
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Ok
+
+ Cancel
+ Anulare
+
+Are you sure you want to continue?
+Sunteți sigur că vreți să continuați?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Închide
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Reîncearcă
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Nu există capturi de ecran
+
+Select a game to start
+Alegeți un joc pentru a începe
+
+Demo
+Demo
+
+You are deleting the demo for this title:\n\n%s
+Veți șterge demo-ul pentru acest joc:\n\n%s
+
+Deleted demo: %s
+Demo șters: %s
+
+Queued demo: %s
+Demo la rând: %s
+
+You are deleting this game, including all save data:
+\n\n%sVeți șterge acest joc, inclusiv toate datele de salvare:\n\n%s
+
+Deleted: %s
+Șters: %s
+
+
+Delete a demo
+Șterge un demo
+
+Loading screenshot #%i
+Încărcând captura de ecran #%i
+
+Press Select to open the Ratings screen
+Apăsați Select pentru a deschide ecranul de evaluări
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Așteptând o conexiune la internet...
+
+Failed
+Eșuat
+
+Retry attempts exceeded
+Încercările de reîncercare au fost depășite
+
+Retrying... %d
+Reîncercând... %d
+
+Queued
+La rând
+
+%s\n\nAre you sure you want to cancel this installation and lose all progress?
+%s\n\nSunteți sigur că vreți să anulați această instalare și să pierdeți tot progresul?
+
+Canceling...
+Anulând...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Actualizare] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Instalând ticket-ul...
+
+Installing seed...
+Instalând seed-ul...
+
+Installing TMD...
+Instalând TMD-ul...
+
+Importing content...
+Importând conținut....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Instalând %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+Suspendat
+
+Completed: %s
+Completat: %s
+
+Failed: %s
+Eșuat: %s
+
+Failed: Internet problem
+Eșec: Problemă de internet
+
+Not enough space on NAND
+Nu există spațiu suficient pe NAND
+
+Not enough space on SD
+Nu există spațiu suficient pe SD
+
+Wrong title key
+Title key greșit
+
+Ready for sleep installation: \n%s
+Pregătit pentru instalare în modul repaus: \n%s
+
+Processing sleep installation: \n%s
+Prelucrând instalarea în modul repaus: \n%s
+
+Can't install ticket: \n%s
+Nu se poate instala ticket-ul: \n%s
+
+Can't install seed: \n%s
+Nu se poate instala seed-ul: \n%s
+
+Sleep installation failed: \n%s
+Instalarea în modul repaus a eșuat: \n%s
+
+Processing for sleep download: \n%s
+Prelucrând descărcarea în modul repaus: \n%s
+
+%s has been installed
+S-a instalat %s
+
+The game %s (%s) has been installed on \n%s
+Jocul %s (%s) s-a instalat în \n%s
+
+Incomplete installation
+Instalare incompletă
+
+Not enough space on NAND to install: \n%s
+Nu există spațiu suficient pe NAND pentru a instala: \n%s
+
+Not enough space on SD card to install: \n%s
+Nu există spațiu suficient pe cardul SD pentru a instala: \n%s
+
+# src/InstalledList.cpp
+#######################
+Search...
+Căutând...
+
+# src/AppItem.cpp
+#################
+Already queued for sleep installation: \n%s
+Deja la rând pentru instalare în modul repaus: \n%s
+
+Preparing for sleep installation: \n%s
+Pregătind instalarea în modul repaus: \n%s
+
+Ready for sleep installation: \n%s
+Gata pentru instalarea în modul repaus: \n%s
+
+Sleep download canceled: \n%s
+Descărcare în modul repaus anulată: \n%s
+
+A system update is required to download in sleep mode.
+Este nevoie de o actualizare de sistem pentru descărcarea în modul repaus.
+
+Players
+Jucători
+
+Languages
+Limbi
+
+Genre
+Gen
+
+Compatible Features/Accessories
+Caractersitici/Accesorii compatibile
+
+NEW - 
+NOU - 
+
+Cancel a download
+Anulați o descărcare
+
+# src/InstalledItem.cpp
+#######################
+ - System Title
+ - Aplicație de sistem
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Joc
+
+Updates
+Actualizări
+
+DLC
+DLC
+
+You are deleting updates for this title:\n\n%s
+Veți șterge actualizările pentru acest joc:\n\n%s
+
+Deleted update: %s
+Actualizare ștearsă: %s
+
+Queued update: %s
+Actualizare la rând: %s
+
+You are deleting DLC for this title:\n\n%s
+Veți șterge DLC-ul pentru acest joc:\n\n%s
+
+Deleted DLC: %s
+DLC șters: %s
+
+Queued DLC: %s
+DLC la rând: %s
+
+Uninstall a game
+Dezinstalează un joc
+
+Uninstall a DLC
+Dezinstalează un DLC
+
+Uninstall an update
+Dezinstalează o actualizare
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Eșec în instalarea ticket-ului: 0x%08lX
+
+Failed to get seed: HTTP %d
+Eșec în obținerea seed-ului: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Necesar un FW 9.6+, Seed eșuat: %016llX
+
+Failed to start: 0x%08lX
+Eșec în pornire: 0x%08lX
+
+Failed to resume: 0x%08lX
+Eșec în reluare: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Eșec în suspendare: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Eșec în consolidarea jocului: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+Eșec în finalizarea TMD-ului: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Eșec în finalizarea conținutului: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Eșec în importul conținuturilor: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+Eșec în instalarea TMD-ului: 0x%08lX
+
+Failed to install content: 0x%08lX
+Eșec în instalarea conținutului: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Eșuat.\n\nStarea HTTP-ului: %d
+
+Invalid title key format.
+Format de title key invalid.
+
+Request timed out.\nTry again.
+Cererea a expirat.\nÎncercați din nou.
+
+Invalid URL.
+URL invalid.
+
+# src/TopInformations.cpp
+#########################
+Battery power is running low
+Bateria este descărcată
+
+The console is disconnected from the internet
+Consola nu are conexiune la internet
+
+# src/BotInformations.cpp
+#########################
+%i sleep download pending\nClose the software with the Start button and close\nthe lid of your console.
+%i de descărcare în modul reapus este în aștepare\nÎnchideți aplicația cu butonul Start și închideți\ncapacul consolei.
+
+TWL NAND - Storage almost full
+TWL NAND - Stocare aproape plină
+
+SD - Storage almost full
+SD - Stocare aproape plină
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filtru
+
+Regions
+Regiuni
+
+Genre
+Gen
+
+Language
+Limbă
+
+Platform
+Platformă
+
+Sort
+Aranjează
+
+Update
+Actualizează
+
+Download
+Descarcă
+
+Other
+Altele
+
+(Never checked)
+(Niciodată verficat)
+
+(Last checked: %s)
+(Ultima verificare: %s)
+
+Japan
+Japonia
+
+USA
+SUA
+
+Europe
+Europa
+
+Australia
+Australia
+
+China
+China
+
+Korea
+Coreea
+
+Taiwan
+Taiwan
+
+English
+Engleză
+
+Japanese
+Japoneză
+
+Spanish
+Spaniolă
+
+French
+Franceză
+
+German
+Germană
+
+Italian
+Italiană
+
+Dutch
+Olandeză
+
+Portuguese
+Portugheză
+
+Russian
+Rusă
+
+Filter settings saved
+Setările de filtru au fost salvate
+
+Cleared saved filter settings
+Setările de filtru au fost șterse
+
+Select All
+Selectează tot
+
+Select None
+Nimic
+
+Name
+Nume
+
+Size
+Mărime
+
+Vote Score
+Punctaj de voturi
+
+Vote Count
+Numărătoare de voturi
+
+Release Date
+Dată de lansare
+
+Ascending
+Ascendent
+
+Descending
+Descendent
+
+Auto-update title keys from URL
+Actualizează title key-urile automatic din URL
+
+Auto-update freeShop
+Actualizează freeShop automatic
+
+Refresh Cache
+Actualizează cache-ul
+
+Play sound when queue finishes
+Redă sunetul când se termină rândul
+
+Power off after download inactivity
+Închide după inactivitate în descărcări
+
+1 minute
+1 minut
+
+%d minutes
+%d minute
+
+Use Defaults
+Folosește valori implicite
+
+HTTP Timeout: %.0fs
+HTTP Timeout: %.0fs
+
+Buffer size: %u KB
+Mărime de buffer: %u KB
+
+Language:
+Limbaj:
+
+Auto-detect
+Auto detectare
+
+View news (%s)
+Vezi știrile (%s)
+
+Enable screen sleep after inactivity
+Activează modul de repaus al ecranului după inactivitate
+
+Remote title key URL(s)
+URL(uri) de title key-uri
+
+You need to restart freeShop for %s to be loaded.\n\nWould you like to do this now?
+Va trebui să reporniți freeShop pentru a încărca %s.\n\nDoriți s-o faceți acum?
+
+Keyboard :
+Tastatură :
+
+Keyboard changed to: %s
+Tastatura a fost schimbată în: %s
+
+Show Title ID in game description screen
+Afișează Title ID-ul în ecranul de descriere al jocului
+
+Locales
+Locale
+
+Audio Service: Enabled
+Serviciu audio: Activat
+
+Audio Service: Disabled, please dump your DSP
+Serviciu audio: Desactivat. Vă rugăm, descărcați DSP-ul
+
+Music
+Muzică
+
+Disable music
+Desactivează muzica
+
+Play eShop music
+Ascultă muzica eShop
+
+Play random track
+Ascultă o piesă
+
+Play selected track
+Ascultă piesa selectată
+
+News
+Știri
+
+Notifiers
+Notificări
+
+Show the number of game you have
+Afișează numărul de jocuri obținute
+
+Blink the LED on freeShop startup
+Clipește LED-ul la pornirea freeShop-ului
+
+Blink the LED when a download finished
+Clipește LED-ul când o descărcare s-a terminat
+
+Blink the LED when a download failed
+Clipește LED-ul când o descărcare a eșuat
+
+Send a notification when a download finished
+Trimite o notificare când o descărcare s-a terminat
+
+Disable the LED when the notification is sent
+Dezactivează LED-ul când notificarea a fost trimisă
+
+Inactivity
+Inactivitate
+
+Enable top screen sleep after inactivity
+Activează modul repaus al ecranului superior după inactivitate
+
+Enable bottom screen sleep after inactivity
+Activează modul repaus al ecranului inferior după inactivitate
+
+Dim the LEDs after inactivity
+Întunecă LED-ul după inactivitate
+
+Allow sounds on inactivity mode
+Permite sunete în modul de inactivitate
+
+Go into inactivity mode after %.0fs
+Pornește modul de inactivitate după %.0fs
+
+Turn off the music if the volume slider is too low
+Oprește muzica dacă glisorul de volum este prea jos
+
+Update eShop music
+Actualizează muzica eShop
+
+You need to restart freeShop to update the eShop music\n\nWould you like to do this now?
+Va trebui să reporniți freeShop pentru a actualiza muzica eShop\n\nDoriți s-o faceți acum?
+
+Allow music on inactivity mode
+Permite muzică în modul de inactivitate
+
+Feature
+Caracteristică
+
+Publisher
+Distribuitor
+
+Installed
+Instalat
+
+Game List
+Listă de Jocuri
+
+Sorting settings saved
+Setări de aranjare salvate
+
+Sorting settings reset
+Satări de aranjare resetate
+
+Download title keys from multiple URLs
+Descarcă title key-uri din URL-uri multiple
+
+Show game informations in game info screen
+Afișează informații despre joc în ecranul informativ
+
+Restart freeShop
+Repornește freeShop

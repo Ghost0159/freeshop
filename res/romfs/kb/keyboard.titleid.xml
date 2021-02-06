@@ -1,0 +1,70 @@
+<keyboard image="keyboard.png" default-layout="lowercase">
+	<style name="basic">
+		<state name="default">
+			<text fontsize="12" offsetx="10" offsety="5" color="#FFFFFFFF"></text>
+			<image x="0" y="0" w="28" h="28"></image>
+		</state>
+		<state name="active">
+			<text fontsize="12" offsetx="11" offsety="6" color="#FFFFFFFF"></text>
+			<image x="28" y="0" w="28" h="28"></image>
+		</state>
+	</style>
+	<style name="spacebar">
+		<state name="default"><image x="0" y="56" w="128" h="28"></image></state>
+		<state name="active"><image x="0" y="84" w="128" h="28"></image></state>
+	</style>
+	<style name="special">
+		<state name="default">
+			<text fontsize="12" offsetx="7" offsety="5" color="#FFFFFFFF"></text>
+			<image x="0" y="28" w="56" h="28"></image>
+		</state>
+		<state name="active">
+			<text fontsize="12" offsetx="8" offsety="6" color="#FFFFFFFF"></text>
+			<image x="56" y="28" w="56" h="28"></image>
+		</state>
+	</style>
+	<style name="enter">
+		<state name="default"><image x="56" y="0" w="56" h="28"></image></state>
+		<state name="active"><image x="128" y="56" w="56" h="28"></image></state>
+	</style>
+	<style name="shift">
+		<state name="default"><image x="145" y="0" w="56" h="28"></image></state>
+		<state name="active"><image x="145" y="28" w="56" h="28"></image></state>
+	</style>
+	<style name="backspace">
+		<state name="default"><image x="112" y="0" w="33" h="23"></image></state>
+		<state name="active"><image x="112" y="23" w="33" h="23"></image></state>
+	</style>
+	<style name="input">
+		<state name="default">
+			<text fontsize="14" offsetx="-20" offsety="4" color="#FFFFFFFF"></text>
+			<image x="255" y="0" w="1" h="28"></image>
+		</state>
+		<state name="active"><image x="255" y="0" w="1" h="28"></image></state>
+	</style>
+
+	<input style="input" x="0" y="58" w="320" h="28" max-width="260" cursor-color="#FFFFFFFF" cursor-height="22"></input>
+
+	<layout name="lowercase" label="abc123">
+		<button style="basic" x="6" y="88" w="28" h="28">1</button>
+		<button style="basic" x="36" y="88" w="28" h="28">2</button>
+		<button style="basic" x="66" y="88" w="28" h="28">3</button>
+		<button style="basic" x="96" y="88" w="28" h="28">4</button>
+		<button style="basic" x="126" y="88" w="28" h="28">5</button>
+		<button style="basic" x="156" y="88" w="28" h="28">6</button>
+		<button style="basic" x="186" y="88" w="28" h="28">7</button>
+		<button style="basic" x="216" y="88" w="28" h="28">8</button>
+		<button style="basic" x="246" y="88" w="28" h="28">9</button>
+		<button style="basic" x="276" y="88" w="28" h="28">0</button>
+
+		<button style="basic" x="50" y="118" w="28" h="28">A</button>
+		<button style="basic" x="80" y="118" w="28" h="28">B</button>
+		<button style="basic" x="110" y="118" w="28" h="28">C</button>
+		<button style="basic" x="140" y="118" w="28" h="28">D</button>
+		<button style="basic" x="170" y="118" w="28" h="28">E</button>
+		<button style="basic" x="200" y="118" w="28" h="28">F</button>
+
+		<button type="backspace" style="backspace" x="280" y="60" w="33" h="23"></button>
+		<button type="enter" style="enter" x="254" y="208" w="56" h="28"></button>
+	</layout>
+</keyboard>

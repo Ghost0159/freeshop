@@ -1,0 +1,188 @@
+<keyboard image="keyboard.png" default-layout="firstPage">
+	<style name="basic">
+		<state name="default">
+			<text fontsize="12" offsetx="10" offsety="5" color="#FFFFFFFF"></text>
+			<image x="0" y="0" w="28" h="28"></image>
+		</state>
+		<state name="active">
+			<text fontsize="12" offsetx="11" offsety="6" color="#FFFFFFFF"></text>
+			<image x="28" y="0" w="28" h="28"></image>
+		</state>
+	</style>
+	<style name="spacebar">
+		<state name="default"><image x="0" y="56" w="128" h="28"></image></state>
+		<state name="active"><image x="0" y="84" w="128" h="28"></image></state>
+	</style>
+	<style name="special">
+		<state name="default">
+			<text fontsize="12" offsetx="7" offsety="5" color="#FFFFFFFF"></text>
+			<image x="0" y="28" w="56" h="28"></image>
+		</state>
+		<state name="active">
+			<text fontsize="12" offsetx="8" offsety="6" color="#FFFFFFFF"></text>
+			<image x="56" y="28" w="56" h="28"></image>
+		</state>
+	</style>
+	<style name="enter">
+		<state name="default"><image x="56" y="0" w="56" h="28"></image></state>
+		<state name="active"><image x="128" y="56" w="56" h="28"></image></state>
+	</style>
+	<style name="shift">
+		<state name="default"><image x="145" y="0" w="56" h="28"></image></state>
+		<state name="active"><image x="145" y="28" w="56" h="28"></image></state>
+	</style>
+	<style name="backspace">
+		<state name="default"><image x="112" y="0" w="33" h="23"></image></state>
+		<state name="active"><image x="112" y="23" w="33" h="23"></image></state>
+	</style>
+	<style name="input">
+		<state name="default">
+			<text fontsize="14" offsetx="-20" offsety="4" color="#FFFFFFFF"></text>
+			<image x="255" y="0" w="1" h="28"></image>
+		</state>
+		<state name="active"><image x="255" y="0" w="1" h="28"></image></state>
+	</style>
+
+	<input style="input" x="0" y="58" w="320" h="28" max-width="260" cursor-color="#FFFFFFFF" cursor-height="22"></input>
+
+	<layout name="firstPage" label="1..">
+		<button style="basic" x="6" y="88" w="28" h="28">1</button>
+		<button style="basic" x="36" y="88" w="28" h="28">2</button>
+		<button style="basic" x="66" y="88" w="28" h="28">3</button>
+		<button style="basic" x="96" y="88" w="28" h="28">4</button>
+		<button style="basic" x="126" y="88" w="28" h="28">5</button>
+		<button style="basic" x="156" y="88" w="28" h="28">6</button>
+		<button style="basic" x="186" y="88" w="28" h="28">7</button>
+		<button style="basic" x="216" y="88" w="28" h="28">8</button>
+		<button style="basic" x="246" y="88" w="28" h="28">9</button>
+		<button style="basic" x="276" y="88" w="28" h="28">0</button>
+
+		<button style="basic" x="10" y="118" w="28" h="28">ア</button>
+		<button style="basic" x="40" y="118" w="28" h="28">カ</button>
+		<button style="basic" x="70" y="118" w="28" h="28">サ</button>
+		<button style="basic" x="100" y="118" w="28" h="28">タ</button>
+		<button style="basic" x="130" y="118" w="28" h="28">ナ</button>
+		<button style="basic" x="160" y="118" w="28" h="28">ハ</button>
+		<button style="basic" x="190" y="118" w="28" h="28">マ</button>
+		<button style="basic" x="220" y="118" w="28" h="28">ヤ</button>
+		<button style="basic" x="250" y="118" w="28" h="28">ラ</button>
+		<button style="basic" x="280" y="118" w="28" h="28">ワ</button>
+
+		<button style="basic" x="18" y="148" w="28" h="28">ガ</button>
+		<button style="basic" x="48" y="148" w="28" h="28">ザ</button>
+		<button style="basic" x="78" y="148" w="28" h="28">ダ</button>
+		<button style="basic" x="108" y="148" w="28" h="28">バ</button>
+		<button style="basic" x="138" y="148" w="28" h="28">パ</button>
+		<button style="basic" x="168" y="148" w="28" h="28">イ</button>
+		<button style="basic" x="198" y="148" w="28" h="28">キ</button>
+		<button style="basic" x="228" y="148" w="28" h="28">シ</button>
+		<button style="basic" x="258" y="148" w="28" h="28">チ</button>
+		<button style="basic" x="288" y="148" w="28" h="28">ニ</button>
+
+		<button style="basic" x="30" y="178" w="28" h="28">ヒ</button>
+		<button style="basic" x="60" y="178" w="28" h="28">ミ</button>
+		<button style="basic" x="90" y="178" w="28" h="28">リ</button>
+		<button style="basic" x="120" y="178" w="28" h="28">ヰ</button>
+		<button style="basic" x="150" y="178" w="28" h="28">ギ</button>
+		<button style="basic" x="180" y="178" w="28" h="28">ジ</button>
+		<button style="basic" x="210" y="178" w="28" h="28">ヂ</button>
+
+		<button style="basic" x="194" y="208" w="28" h="28">,</button>
+		<button style="basic" x="224" y="208" w="28" h="28">.</button>
+
+		<button type="backspace" style="backspace" x="280" y="60" w="33" h="23"></button>
+
+		<button style="spacebar" x="66" y="208" w="126" h="28">&#32;</button>
+		<button type="enter" style="enter" x="254" y="208" w="56" h="28"></button>
+		<button type="layoutchange" layout="secondPage" style="special" x="5" y="208" w="58" h="28">1..</button>
+	</layout>
+	<layout name="secondPage" label=".2.">
+		<button style="basic" x="6" y="88" w="28" h="28">!</button>
+		<button style="basic" x="36" y="88" w="28" h="28">@</button>
+		<button style="basic" x="66" y="88" w="28" h="28">#</button>
+		<button style="basic" x="96" y="88" w="28" h="28">$</button>
+		<button style="basic" x="126" y="88" w="28" h="28">%</button>
+		<button style="basic" x="156" y="88" w="28" h="28">^</button>
+		<button style="basic" x="186" y="88" w="28" h="28">&amp;</button>
+		<button style="basic" x="216" y="88" w="28" h="28">*</button>
+		<button style="basic" x="246" y="88" w="28" h="28">(</button>
+		<button style="basic" x="276" y="88" w="28" h="28">)</button>
+
+		<button style="basic" x="10" y="118" w="28" h="28">ビ</button>
+		<button style="basic" x="40" y="118" w="28" h="28">ピ</button>
+		<button style="basic" x="70" y="118" w="28" h="28">ウ</button>
+		<button style="basic" x="100" y="118" w="28" h="28">ク</button>
+		<button style="basic" x="130" y="118" w="28" h="28">ス</button>
+		<button style="basic" x="160" y="118" w="28" h="28">ツ</button>
+		<button style="basic" x="190" y="118" w="28" h="28">ヌ</button>
+		<button style="basic" x="220" y="118" w="28" h="28">フ</button>
+		<button style="basic" x="250" y="118" w="28" h="28">ム</button>
+		<button style="basic" x="280" y="118" w="28" h="28">ユ</button>
+
+		<button style="basic" x="18" y="148" w="28" h="28">ル</button>
+		<button style="basic" x="48" y="148" w="28" h="28">グ</button>
+		<button style="basic" x="78" y="148" w="28" h="28">ズ</button>
+		<button style="basic" x="108" y="148" w="28" h="28">ヅ</button>
+		<button style="basic" x="138" y="148" w="28" h="28">ブ</button>
+		<button style="basic" x="168" y="148" w="28" h="28">プ</button>
+		<button style="basic" x="198" y="148" w="28" h="28">エ</button>
+		<button style="basic" x="228" y="148" w="28" h="28">ケ</button>
+		<button style="basic" x="258" y="148" w="28" h="28">セ</button>
+		<button style="basic" x="288" y="148" w="28" h="28">テ</button>
+
+		<button style="basic" x="30" y="178" w="28" h="28">ネ</button>
+		<button style="basic" x="60" y="178" w="28" h="28">ヘ</button>
+		<button style="basic" x="90" y="178" w="28" h="28">メ</button>
+		<button style="basic" x="120" y="178" w="28" h="28">レ</button>
+		<button style="basic" x="150" y="178" w="28" h="28">ヱ</button>
+		<button style="basic" x="180" y="178" w="28" h="28">ゲ</button>
+		<button style="basic" x="210" y="178" w="28" h="28">ゼ</button>
+
+		<button style="basic" x="194" y="208" w="28" h="28">-</button>
+		<button style="basic" x="224" y="208" w="28" h="28">?</button>
+
+		<button type="backspace" style="backspace" x="280" y="60" w="33" h="23"></button>
+
+		<button style="spacebar" x="66" y="208" w="126" h="28">&#32;</button>
+		<button type="enter" style="enter" x="254" y="208" w="56" h="28"></button>
+		<button type="layoutchange" layout="thirdPage" style="special" x="5" y="208" w="58" h="28">.2.</button>
+	</layout>
+	<layout name="thirdPage" label="..3">
+		<button style="basic" x="6" y="88" w="28" h="28">デ</button>
+		<button style="basic" x="36" y="88" w="28" h="28">ベ</button>
+		<button style="basic" x="66" y="88" w="28" h="28">ペ</button>
+		<button style="basic" x="96" y="88" w="28" h="28">オ</button>
+		<button style="basic" x="126" y="88" w="28" h="28">コ</button>
+		<button style="basic" x="156" y="88" w="28" h="28">ソ</button>
+		<button style="basic" x="186" y="88" w="28" h="28">ト</button>
+		<button style="basic" x="216" y="88" w="28" h="28">ノ</button>
+		<button style="basic" x="246" y="88" w="28" h="28">ホ</button>
+		<button style="basic" x="276" y="88" w="28" h="28">モ</button>
+
+		<button style="basic" x="10" y="118" w="28" h="28">ヨ</button>
+		<button style="basic" x="40" y="118" w="28" h="28">ロ</button>
+		<button style="basic" x="70" y="118" w="28" h="28">ヲ</button>
+		<button style="basic" x="100" y="118" w="28" h="28">ゴ</button>
+		<button style="basic" x="130" y="118" w="28" h="28">ゾ</button>
+		<button style="basic" x="160" y="118" w="28" h="28">ド</button>
+		<button style="basic" x="190" y="118" w="28" h="28">ボ</button>
+		<button style="basic" x="220" y="118" w="28" h="28">ポ</button>
+
+		<button style="basic" x="30" y="178" w="28" h="28">ヴ</button>
+		<button style="basic" x="60" y="178" w="28" h="28">ッ</button>
+		<button style="basic" x="90" y="178" w="28" h="28">ン</button>
+		<button style="basic" x="120" y="178" w="28" h="28">・</button>
+		<button style="basic" x="150" y="178" w="28" h="28">ー</button>
+		<button style="basic" x="180" y="178" w="28" h="28">ヽ</button>
+		<button style="basic" x="210" y="178" w="28" h="28">ヾ</button>
+
+		<button style="basic" x="194" y="208" w="28" h="28">、</button>
+		<button style="basic" x="224" y="208" w="28" h="28">。</button>
+
+		<button type="backspace" style="backspace" x="280" y="60" w="33" h="23"></button>
+
+		<button style="spacebar" x="66" y="208" w="126" h="28">&#32;</button>
+		<button type="enter" style="enter" x="254" y="208" w="56" h="28"></button>
+		<button type="layoutchange" layout="firstPage" style="special" x="5" y="208" w="58" h="28">..3</button>
+	</layout>
+</keyboard>

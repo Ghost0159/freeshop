@@ -1,0 +1,729 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+Wachten op internetverbinding... %.0fs
+
+Fetching news for %s ...
+Nieuws ophalen voor %s ...
+
+Loading game list...
+Laden van gamelijst...
+
+Looking for freeShop update...
+Controleren voor freeShop updates...
+
+Installing freeShop %s ...
+freeShop installeren %s ...
+
+Failed to install update: 0x%08lX
+Update installeren mislukt: 0x%08lX
+
+Checking latest cache...
+Laatste cache controleren...
+
+Downloading latest cache: %s...
+Laatste cache ophalen: %s...
+
+Extracting latest cache...
+Laatste cache uitpakken...
+
+Downloading title keys...
+Title keys downloaden...
+
+Loading theme manager...
+Thema manager aan het laden...
+
+Loading services...
+Services laden...
+
+Press the A button to enable WiFi
+Druk op de A knop om WiFi aan te zetten
+
+The freeShop wasn't closed correctly the last time.\nDelete the %s folder\nand/or reinstall freeShop if the problem persists.
+freeShop was de vorige keer niet correct afgesloten.\nVerwijder de %s map\nand/of herinstalleer freeShop als het probleem blijft aanhouden.
+
+Press the B button to open System Settings
+Druk op de B knop om de Systeeminstellingen te openen
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Geen title keys gevonden.\nControleer of de keys in\n%s\n\nKopieer de keys handmatig of controleer\nde instellingen om een\nURL in te voeren voor\nhet downloaden van de keys
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Geen cache gevonden voor\ntitle keys.\n\nProbeer de cache te herladen.\nAls dat niet werkt, dan werken\ndeze title keys niet met\nfreeShop.
+
+Queued install: %s
+Wachtrij: %s
+
+Already installed: %s
+Reeds geïnstalleerd: %s
+
+Already in downloading: \n%s
+Al aan het downloaden: \n%s
+
+Type a game name...
+Typ een game naam...
+
+Type a game Title ID...
+Typ een Title ID...
+
+This song file type isn't supported.
+Dit filetype muziek word niet ondersteund.
+
+Loading installed game list...
+Lijst van geinstalleerde games aan het laden...
+
+Welcome, %s
+Welkom, %s
+
+Use system keyboard
+Gebruik systeem toetsenbord
+
+# src/AppStats.cpp
+##################
+Ratings
+Reviews
+
+Preferences
+Voorkeuren
+
+• Who do you think this title appeals to?
+• Voor wie vind je dat deze titel het meest geschikt is?
+
+• What kind of play style is this title more suited for?
+• Hoe zou je de ervaring van het spelen omschrijven?
+
+Everyone - %i%%
+Iedereen - %i%%
+
+Casual - %i%%
+Casual - %i%%
+
+%i%% - Gamers
+%i%% - Gamers
+
+%i%% - Intense
+%i%% - Intensief
+
+Average score
+Gemiddelde score
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ Ok
+
+ Cancel
+ Annuleer
+
+Are you sure you want to continue?
+Weet je zeker dat je door wilt gaan?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Sluiten
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Opnieuw proberen
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Geen schermafbeeldingen
+
+Select a game to start
+Kies een game om te beginnen
+
+Demo
+Demo
+
+You are deleting the demo for this title:\n\n%s
+Je verwijdert de demo voor deze titel:\n\n%s
+
+Deleted demo: %s
+Demo verwijderd: %s
+
+Queued demo: %s
+Demo wachtrij: %s
+
+You are deleting this game, including all save data:\n\n%s
+Je verwijdert dit spel, inclusief al je save data:\n\n%s
+
+Deleted: %s
+Verwijderd: %s
+
+# src/Download.cpp
+##################
+Waiting for internet...
+Wachten op een internetverbinding...
+
+Failed
+Mislukt
+
+Retry attempts exceeded
+Te vaak mislukt
+
+Retrying... %d
+Opnieuw proberen... %d
+
+Queued
+Wachtrij
+
+%s\n\nAre you sure you want to cancel this installation and lose all progress?
+%s\n\nWeet je zeker dat je wilt annuleren en alle voortgang wilt verliezen?
+
+Canceling...
+Annuleren...
+
+Delete a demo
+Verwijder een demo
+
+Loading screenshot #%i
+Screenshot #%i aan het laden
+
+Press Select to open the Ratings screen
+Druk op Select om het Beoordelingenschrerm te openen.
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Update] %s
+
+[Demo] %s
+[Demo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Ticket installeren...
+
+Installing seed...
+Seed installeren...
+
+Installing TMD...
+TMD installeren...
+
+Importing content...
+Content importeren....
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Installeren %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+
+Suspended
+Gepauzeerd
+
+Installed
+Geïnstalleerd
+
+Completed: %s
+Voltooid: %s
+
+Failed: %s
+Mislukt: %s
+
+Failed: Internet problem
+Mislukt: Internet probleem
+
+Not enough space on NAND
+Niet genoeg ruimte op NAND
+
+Not enough space on SD
+Niet genoeg ruimte op SD
+
+Wrong title key
+Verkeerde title key
+
+Ready for sleep installation: \n%s
+Klaar voor slaapstand installatie: \n%s
+
+Processing sleep installation: \n%s
+Slaapstand installatie verwerken: \n%s
+
+Can't install ticket: \n%s
+Kan ticket niet installeren: \n%s
+
+Can't install seed: \n%s
+Kan seed niet installeren: \n%s
+
+Sleep installation failed: \n%s
+Slaapstand installatie mislukt: \n%s
+
+Processing for sleep download: \n%s
+Slaapstand download verwerken: \n%s
+
+%s has been installed
+%s is geinstalleerd.
+
+The game %s (%s) has been installed on \n%s
+De game %s is geinstalleerd op \n%s
+
+Incomplete installation
+Incomplete installatie
+
+Not enough space on NAND to install: \n%s
+Niet voldoende ruimte op het NAND om \n%s \nte installeren.
+
+Not enough space on SD card to install: \n%s
+Niet voldoende ruimte op de SD-kaart om \n%s \nte installeren.
+
+# src/AppItem.cpp
+#################
+Already queued for sleep installation: \n%s
+Al in de wachtrij voor slaapstand installatie: \n%s
+
+Preparing for sleep installation: \n%s
+Slaapstand installatie voorbereiden:
+
+Ready for sleep installation: \n%s
+Klaar voor slaapstand installatie: \n%s
+
+Sleep download canceled: \n%s
+Slaapstand download geannuleerd: \n%s
+
+A system update is required to download in sleep mode.
+Een systeemupdate is vereist om in de slaapstand te downloaden.
+
+Players
+Spelers
+
+Languages
+Talen
+
+Genre
+Genre
+
+Compatible Features/Accessories
+Ondersteunde Functies/Accesoires
+
+NEW - 
+NIEUW - 
+
+Cancel a download
+Annuleer een download
+
+# src/InstalledList.cpp
+#######################
+Search...
+Zoeken...
+
+# src/InstalledItem.cpp
+#######################
+ - System Title
+ - Systeemtitel
+
+# src/InstalledOptions.cpp
+#########################
+Game
+Game
+
+Updates
+Updates
+
+DLC
+DLC
+
+You are deleting updates for this title:\n\n%s
+Je verwijdert updates voor deze game:\n\n%s
+
+Deleted update: %s
+Update verwijderd: %s
+
+Queued update: %s
+Update in wachtrij: %s
+
+You are deleting DLC for this title:\n\n%s
+Je verwijdert de DLC voor deze game:\n\n%s
+
+Deleted DLC: %s
+DLC verwijderd: %s
+
+Queued DLC: %s
+DLC in wachtrij: %s
+
+
+Uninstall a game
+Verwijder een game
+
+Uninstall a DLC
+Verwijder een DLC
+
+Uninstall an update
+Verwijder een update
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Ticket installeren mislukt: 0x%08lX
+
+Failed to get seed: HTTP %d
+Seed ophalen mislukt: HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+Seed mislukt, vereist versie 9.6 of hoger: %016llX
+
+Failed to start: 0x%08lX
+Starten mislukt: 0x%08lX
+
+Failed to resume: 0x%08lX
+Hervatten mislukt: 0x%08lX
+
+Failed to suspend: 0x%08lX
+Pauzeren mislukt: 0x%08lX
+
+Failed to commit title: 0x%08lX
+Titel toewijden mislukt: 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+TMD beëindigen mislukt: 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Content beëindigen mislukt: 0x%08lX
+
+Failed to import contents: 0x%08lX
+Content importeren mislukt: 0x%08lX
+
+Failed to install TMD: 0x%08lX
+TMD installeren mislukt: 0x%08lX
+
+Failed to install content: 0x%08lX
+Content installeren mislukt: 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Mislukt.\n\nHTTP Status: %d
+
+Invalid title key format.
+Ongeldige title key formaat.
+
+Request timed out.\nTry again.
+Aanvraag timeout.\nProbeer opnieuw.
+
+Invalid URL.
+Ongeldige URL.
+
+# src/TopInformations.cpp
+#########################
+Battery power is running low
+Batterijlading is laag.
+
+The console is disconnected from the internet
+De console is niet verbonden met het internet
+
+# src/BotInformations.cpp
+#########################
+%i sleep download pending\nClose the software with the Start button and close\nthe lid of your console.
+%i slaapstand download voorbereid\nSluit de software af met de Start knop en sluit\nde console.
+
+TWL NAND - Storage almost full
+TWL NAND - Opslag bijna vol
+
+SD - Storage almost full
+SD - Opslag bijna vol
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filter
+
+Regions
+Regio
+
+Genre
+Categorie
+
+Language
+Taal
+
+Platform
+Platform
+
+Sort
+Sorteren
+
+Update
+Update
+
+Download
+Download
+
+Other
+Andere
+
+(Never checked)
+(Nooit gecontroleerd)
+
+(Last checked: %s)
+(Laatst gecontroleerd: %s)
+
+Japan
+Japan
+
+USA
+USA
+
+Europe
+Europa
+
+Australia
+Australia
+
+China
+China
+
+Korea
+Korea
+
+Taiwan
+Taiwan
+
+English
+Engels
+
+Japanese
+Japans
+
+Spanish
+Spaans
+
+French
+Frans
+
+German
+Duits
+
+Italian
+Italiaans
+
+Dutch
+Nederlands
+
+Portuguese
+Portugees
+
+Russian
+Russisch
+
+Filter settings saved
+Filter instellingen opgeslagen
+
+Cleared saved filter settings
+Filter instellingen gewist
+
+Select All
+Selecteer alles
+
+Select None
+Selecteer niks
+
+Name
+Naam
+
+Size
+Grootte
+
+Vote Score
+Score
+
+Vote Count
+Aantal stemmen
+
+Release Date
+Datum uitgave
+
+Ascending
+Oplopend
+
+Descending
+Aflopend
+
+Auto-update title keys from URL
+Title keys automatisch updaten van URL
+
+Auto-update freeShop
+freeShop automatisch updaten
+
+Refresh Cache
+Cache herladen
+
+Play sound when queue finishes
+Geluid afspelen wanneer wachtrij voltooid
+
+Power off after download inactivity
+Uitschakelen na download inactiviteit
+
+1 minute
+1 minuut
+
+%d minutes
+%d minuten
+
+Use Defaults
+Gebruik standaard
+
+HTTP Timeout: %.0fs
+HTTP Timeout: %.0fs
+
+Buffer size: %u KB
+Buffergrootte: %u KB
+
+Language:
+Taal:
+
+Auto-detect
+Automatisch detecteren
+
+View news (%s)
+Bekijk nieuws (%s)
+
+Enable screen sleep after inactivity
+Laat scherm slapen na inactiviteit
+
+Remote title key URL(s)
+Title key URL
+
+You need to restart freeShop for %s to be loaded.\n\nWould you like to do this now?
+freeShop moet opnieuw worden opgestart voor om geladen te worden %s.\n\nWil je dit nu doen?
+
+Keyboard :
+Toetsenbord :
+
+Keyboard changed to: %s
+Toetsenbord veranderd naar: %s
+
+Show Title ID in game description screen
+Toon Title ID op het game informatie scherm.
+
+Locales
+Locales
+
+Audio Service: Enabled
+Audio Service: Ingeschakeld
+
+Audio Service: Disabled, please dump your DSP
+Audio Service: Uitgeschakeld, dump je DSP
+
+Music
+Muziek
+
+Disable music
+Geen muziek
+
+Play eShop music
+Speel eShop muziek
+
+Play random track
+Speel willekeurige track
+
+Play selected track
+Speel geselecteerde track
+
+News
+Nieuws
+
+Notifiers
+Notificaties
+
+Show the number of game you have
+Toon het aantal games die je hebt.
+
+Blink the LED on freeShop startup
+Knipper de LED bij het opstarten van freeShop.
+
+Blink the LED when a download finished
+Knipper de LED wanneer een download voltooid is.
+
+Blink the LED when a download failed
+Knipper de LED wanneer een download mislukt.
+
+Send a notification when a download finished
+Stuur een notificatie wanneer een download voltooid is.
+
+Disable the LED when the notification is sent
+Zet de LED uit waneer de notificatie gestuurd is.
+
+Inactivity
+Inactiviteit
+
+Enable top screen sleep after inactivity
+Activeer scherm-standby op het bovenste scherm terwijl inactief.
+
+Enable bottom screen sleep after inactivity
+Activeer scherm-standby op het onderste scherm terwijl inactivitief.
+
+Dim the LEDs after inactivity
+Dim de LEDS terwijl inactief.
+
+Allow sounds on inactivity mode
+Sta geluiden toe terwijl inactief.
+
+Go into inactivity mode after %.0fs
+Ga in activiteitmodus na %.0fs
+
+Turn off the music if the volume slider is too low
+Zet de muziek uit als de volume slider te laag is.
+
+Update eShop music
+Update eShop muziek.
+
+You need to restart freeShop to update the eShop music\n\nWould you like to do this now?
+Je moet freeShop herstarten om de muziek te updaten.\n\nZou je dit nu willen doen?
+
+Allow music on inactivity mode
+Sta muziek toe terwijl inactief.
+
+Feature
+Functies
+
+Publisher
+Uitgever
+
+Installed
+Geinstalleerd
+
+Game List
+Gamelijst
+
+Sorting settings saved
+Sorteerinstellingen opgeslagen
+
+Sorting settings reset
+Sorteerinstellingen gereset
+
+Download title keys from multiple URLs
+Download title keys van meerdere URLs
+
+Show game informations in game info screen
+Toon game informatie op het game info scherm
+
+Restart freeShop
+Herstart freeShop
+
+You need to restart freeShop\n\nWould you like to do this now?
+Je moet freeShop opnieuw opstarten\n\nZou je dit nu willen doen?
+
+Beta Options
+Beta Opties
+
+Enable Dark Theme
+Activeer donker thema
+
+Restart Fix
+Herstart Fix
+
+Show battery percentage and clock
+Toon batterijpercentage en klok
+
+Theme Info
+Thema Info
+
+# src/Theme.cpp
+################
+
+Classic
+Klassiek

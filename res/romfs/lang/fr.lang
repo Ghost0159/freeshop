@@ -1,0 +1,718 @@
+# src/States/SyncState.cpp
+##########################
+Waiting for internet connection... %.0fs
+En attente d'une connexion internet... %.0fs
+
+Fetching news for %s ...
+Récupération des nouvelles\ndonnées de %s ...
+
+Loading game list...
+Chargement de la liste des jeux...
+
+Looking for freeShop update...
+Recherche d'une màj de freeShop...
+
+Installing freeShop %s ...
+Installation de freeShop %s ...
+
+Failed to install update: 0x%08lX
+Échec de l'installation\nde la mise à jour : 0x%08lX
+
+Checking latest cache...
+Vérification du cache le plus récent...
+
+Downloading latest cache: %s...
+Téléchargement du cache\nle plus récent : %s...
+
+Extracting latest cache...
+Extraction du cache le plus récent...
+
+Downloading title keys...
+Téléchargement des title keys...
+
+Loading services...
+Chargement des services...
+
+Loading theme manager...
+Chargement du gestionnaire de thème...
+
+Press the A button to enable WiFi
+Appuyez sur le bouton A pour activer le WiFi
+
+The freeShop wasn't closed correctly the last time.\nDelete the %s folder\nand/or reinstall freeShop if the problem persists.
+Le freeShop n'a pas été fermé correctement la dernière fois.\nSupprimez le dossier %s\net/ou réinstallez le freeShop si le problème persiste.
+
+Press the B button to open System Settings
+Appuyez sur le bouton B pour ouvrir les Paramètres de la console
+
+# src/States/BrowseState.cpp
+############################
+No title keys found.\nMake sure you have keys in\n%s\n\nManually copy keys to the directory\nor check settings to enter a URL\nfor downloading title keys.
+Aucune title keys trouvées.\nAssurez vous de les avoir dans\n%s\n\nCopiez manuellement les title keys\ndans le répertoire\nou entrez une URL dans les paramètres\nafin de les télécharger.
+
+No cache entries found\nfor your title keys.\n\nTry refreshing cache in settings.\nIf that doesn't work, then your\ntitles simply won't work with\nfreeShop currently.
+Le cache n'a pas été trouvé\n pour vos title keys.\n\nEssayez d'actualiser le cache\ndans les paramètres.\nSi cela ne fonctionne pas,\nalors vos title keys ne sont pas\ncompatibles avec freeShop\npour l'instant.
+
+Queued install: %s
+Installation en file d'attente :\n%s
+
+Already installed: %s
+Déjà installé : %s
+
+Already in downloading: \n%s
+Déjà en cours de téléchargement : \n%s
+
+Type a game name...
+Ecrivez le nom d'un jeu...
+
+Type a game Title ID...
+Ecrivez le Title ID d'un jeu...
+
+This song file type isn't supported.
+Ce type de fichier son n'est pas supporté.
+
+Loading installed game list...
+Chargement de la liste des jeux installés...
+
+Welcome, %s
+Bienvenue, %s
+
+# src/AppStats.cpp
+##################
+Ratings
+Evaluations
+
+Preferences
+Recommandations
+
+• Who do you think this title appeals to?
+• À qui s'adresse ce logiciel ?
+
+• What kind of play style is this title more suited for?
+• À quelle utilisation ce logiciel est-il destiné ?
+
+Everyone - %i%%
+Tout le monde - %i%%
+
+Casual - %i%%
+Occasionnelle - %i%%
+
+%i%% - Gamers
+%i%% - Joueurs confirmés
+
+%i%% - Intense
+%i%% - Intense
+
+Average score
+Score moyen
+
+# src/States/DialogState.cpp
+############################
+ Ok
+ OK
+
+ Cancel
+ Annuler
+
+Are you sure you want to continue?
+Êtes-vous sûr(e) de vouloir continuer ?
+
+# src/States/NewsState.cpp
+##########################
+ Close
+ Fermer
+
+# src/States/QrScannerState.cpp
+###############################
+ Retry
+ Réessayer
+
+# src/AppInfo.cpp
+#################
+No Screenshots
+Pas d'images disponibles
+
+Select a game to start
+Sélectionnez un jeu pour commencer
+
+Demo
+Démo
+
+You are deleting the demo for this title:\n\n%s
+Voulez-vous vraiment effacer la démo de :\n\n%s
+
+Deleted demo: %s
+Démo effacée : %s
+
+Queued demo: %s
+Démo en attente: %s
+
+You are deleting this game, including all save data:\n\n%s
+Vous allez effacer ce jeu, et toutes ses données de sauvegarde :\n\n%s
+
+Deleted: %s
+Effacé : %s
+
+Delete a demo
+Effacer une démo
+
+Loading screenshot #%i
+Chargement du screenshot #%i
+
+Press Select to open the Ratings screen
+Appuyez sur Select pour ouvrir\nl'écran des Evaluations
+
+# src/Download.cpp
+##################
+Waiting for internet...
+En attente d'une connexion internet...
+
+Failed
+Échec
+
+Retry attempts exceeded
+Nombre de tentatives dépassé
+
+Retrying... %d
+Nouvelle tentative... %d
+
+Queued
+En attente
+
+%s\n\nAre you sure you want to cancel this installation and lose all progress?
+%s\n\nVoulez-vous vraiment annuler l'installation et perdre toute la progression ?
+
+Canceling...
+Annulation...
+
+# src/DownloadQueue.cpp
+#######################
+[Update] %s
+[Mise à jour] %s
+
+[Demo] %s
+[Démo] %s
+
+[DLC] %s
+[DLC] %s
+
+Installing ticket...
+Installation du ticket...
+
+Installing seed...
+Installation du seed...
+
+Installing TMD...
+Installation du TMD...
+
+Importing content...
+Importation du contenu...
+
+Installing %d/%d... %.1f%% (%.0f KB/s) %dm %02ds
+Installation %d/%d... %.1f%% (%.0f Ko/s) %dm %02ds
+
+Suspended
+Suspendu
+
+Completed: %s
+Terminé : %s
+
+Failed: %s
+Échoué : %s
+
+Failed: Internet problem
+Échec : problème de connexion internet
+
+Not enough space on NAND
+Pas assez d'espace sur la NAND
+
+Not enough space on SD
+Pas assez d'espace sur la carte SD
+
+Wrong title key
+Mauvaise title key
+
+Ready for sleep installation: \n%s
+Prêt pour l'installation en veille : \n%s
+
+Processing sleep installation: \n%s
+Traitement de l'installation en veille : \n%s
+
+Can't install ticket: \n%s
+Erreur lors de l'installation du ticket : \n%s
+
+Can't install seed: \n%s
+Erreur lors de l'installation du seed : \n%s
+
+Sleep installation failed: \n%s
+Installation en veille échouée : \n%s
+
+Processing for sleep download: \n%s
+En cours de traitement pour l'installation en veille : \n%s
+
+Registered for sleep download: \n%s
+Enregistré pour l'installation en veille : \n%s
+
+%s has been installed
+%s à été installé
+
+The game %s (%s) has been installed on \n%s
+Le jeu %s (%s) à été installé le \n%s
+
+Incomplete installation
+Installation incomplete
+
+Not enough space on NAND to install: \n%s
+Pas assez d'espace sur la NAND pour installer: \n%s
+
+Not enough space on SD card to install: \n%s
+Pas assez d'espace sur la carte SD pour installer: \n%s
+
+# src/AppItem.cpp
+#################
+Already queued for sleep installation: \n%s
+Déjà en cours de traitement : \n%s
+
+Preparing for sleep installation: \n%s
+Préparation pour l'installation en veille : \n%s
+
+Ready for sleep installation: \n%s
+Prêt pour l'installation en veille : \n%s
+
+Sleep download canceled: \n%s
+Téléchargement en veille annulé : \n%s
+
+A system update is required to download in sleep mode.
+Une mise à jour système est requise pour l'installation\nen veille.
+
+Players
+Joueurs
+
+Languages
+Langues
+
+Genre
+Genre
+
+Compatible Features/Accessories
+Fonctions et accessoires compatibles
+
+NEW - 
+NOUVEAU - 
+
+Cancel a download
+Annuler un téléchargement
+
+# src/InstalledItem.cpp
+#######################
+ - System Title
+ - Appli Système
+
+# src/InstalledOptions.cpp
+##########################
+Game
+Jeu
+
+Updates
+Mises à jour
+
+DLC
+DLC
+
+You are deleting updates for this title:\n\n%s
+Vous allez effacer les mises à jour de ce titre :\n\n%s
+
+Deleted update: %s
+Effacement de la mise à jour : %s
+
+Queued update: %s
+Mise à jour en attente : %s
+
+You are deleting DLC for this title:\n\n%s
+Vous allez effacer le DLC de ce titre:\n\n%s
+
+Deleted DLC: %s
+Effacement du DLC : %s
+
+Queued DLC: %s
+DLC en attente : %s
+
+Uninstall a game
+Désinstaller un jeu
+
+Uninstall a DLC
+Désinstaller un DLC
+
+Uninstall an update
+Désinstaller une mise à jour
+
+# src/InstalledList.cpp
+#######################
+Search...
+Rechercher...
+
+# src/Installer.cpp
+###################
+Failed to install ticket: 0x%08lX
+Échec d'installation du ticket : 0x%08lX
+
+Failed to get seed: HTTP %d
+Échec de l'obtention du seed : HTTP %d
+
+Need FW 9.6+, Seed failed: %016llX
+FW supérieur à 9.6 requis, échec du seed : %016llX
+
+Failed to start: 0x%08lX
+Échec du démarrage : 0x%08lX
+
+Failed to resume: 0x%08lX
+Échec de la reprise : 0x%08lX
+
+Failed to suspend: 0x%08lX
+Échec de la mise en suspens : 0x%08lX
+
+Failed to commit title: 0x%08lX
+Échec d'installation du titre : 0x%08lX
+
+Failed to finalize TMD: 0x%08lX
+Échec de la finalisation du TMD : 0x%08lX
+
+Failed to finalize content: 0x%08lX
+Échec de la finalisation du contenu : 0x%08lX
+
+Failed to import contents: 0x%08lX
+Échec d'importation du contenu : 0x%08lX
+
+Failed to install TMD: 0x%08lX
+Échec d'installation du TMD : 0x%08lX
+
+Failed to install content: 0x%08lX
+Échec d'installation du contenu : 0x%08lX
+
+# src/TitleKeys.cpp
+###################
+Failed.\n\nHTTP Status: %d
+Échec.\n\nStatut HTTP : %d
+
+Invalid title key format.
+Format de la title key invalide.
+
+Request timed out.\nTry again.
+Requête expirée.\nRéessayez.
+
+Invalid URL.
+URL invalide.
+
+# src/BotInformations.cpp
+#########################
+%i sleep download pending\nClose the software with the Start button and close\nthe lid of your console.
+%i téléchargement(s) en veille\nFermez ce logiciel avec le bouton Start, puis\nmettez votre console en veille.
+
+TWL NAND - Storage almost full
+TWL NAND - Stockage presque saturé
+
+SD - Storage almost full
+SD - Stockage presque saturé
+
+# src/TopInformations.cpp
+#########################
+Battery power is running low
+Le niveau de batterie est faible
+
+The console is disconnected from the internet
+La console à été déconnectée d'Internet
+
+# src/Theme.cpp
+###############
+The default theme of freeShop.\nMade by arc13 / Cruel.
+Le thème par défaut du freeShop.\nFait par: arc13 / Cruel.
+
+# src/GUI/Settings.cpp
+######################
+Filter
+Filtre
+
+Regions
+Régions
+
+Genre
+Genre
+
+Language
+Langue
+
+Platform
+Plateforme
+
+Sort
+Trier
+
+Update
+Mise à jour
+
+Download
+Téléchargement
+
+Music
+Musique
+
+Other
+Autre
+
+(Never checked)
+(Jamais vérifié)
+
+(Last checked: %s)
+(Dernière vérification : %s)
+
+Japan
+Japon
+
+USA
+USA
+
+Europe
+Europe
+
+Australia
+Australie
+
+China
+Chine
+
+Korea
+Corée
+
+Taiwan
+Taiwan
+
+English
+Anglais
+
+Japanese
+Japonais
+
+Spanish
+Espagnol
+
+French
+Français
+
+German
+Allemand
+
+Italian
+Italien
+
+Dutch
+Néerlandais
+
+Portuguese
+Portugais
+
+Russian
+Russe
+
+Filter settings saved
+Paramètres de filtre sauvegardés
+
+Cleared saved filter settings
+Paramètres de filtre réinitalisés
+
+Select All
+Tout séléctionner
+
+Select None
+Ne rien sélect.
+
+Name
+Nom
+
+Size
+Taille
+
+Vote Score
+Score des votes
+
+Vote Count
+Nombre de votes
+
+Release Date
+Date de sortie
+
+Ascending
+Croissant
+
+Descending
+Décroissant
+
+Auto-update title keys from URL
+Mise à jour automatique des title keys depuis l'URL
+
+Auto-update freeShop
+Mise à jour automatique de freeShop
+
+Refresh Cache
+Actualiser le Cache
+
+Play sound when queue finishes
+Jouer un son une fois les téléchargements terminés
+
+Power off after download inactivity
+Éteindre la 3DS si file d'attente vide après
+
+1 minute
+1 minute
+
+%d minutes
+%d minutes
+
+Use Defaults
+Réinitialiser
+
+HTTP Timeout: %.0fs
+Limite de temps HTTP : %.0fs
+
+Buffer size: %u KB
+Taille m. tampon : %u Ko
+
+Disable music
+Désactiver la musique
+
+Play eShop music
+Lecture de la musique de l'eShop
+
+Play random track
+Lecture aléatoire
+
+Play selected track
+Lecture de la piste sélectionné
+
+Language:
+Langue :
+
+Auto-detect
+Détection auto
+
+View news (%s)
+Voir news (%s)
+
+Enable screen sleep after inactivity
+Activer le sommeil de l'écran après l'inactivité
+
+Remote title key URL(s)
+URL(s) des title keys
+
+You need to restart freeShop for %s to be loaded.\n\nWould you like to do this now?
+Vous devez redémarrer freeShop pour le lancer en %s.\n\nRedémarrer maintenant ?
+
+Keyboard:
+Clavier :
+
+Keyboard changed to: %s
+Clavier changé en : %s
+
+Show Title ID in game description screen
+Afficher le Title ID du jeu sélectionné
+
+Locales
+Langues
+
+Audio Service: Enabled
+Service Audio : Activé
+
+Audio Service: Disabled, please dump your DSP
+Service Audio : Désactivé, veuillez dumper votre DSP
+
+Use system keyboard
+Utiliser le clavier système
+
+Show battery percentage and clock
+Afficher le niveau de batterie et l'horloge
+
+Notifiers
+Notificateurs
+
+Show the number of game you have
+Afficher le nombre de jeux que vous avez
+
+Blink the LED on freeShop startup
+Clignoter la LED lors du démarrage du freeShop
+
+Blink the LED when a download finished
+Clignoter la LED quand un téléchargement est fini
+
+Blink the LED when a download failed
+Clignoter la LED quand un téléchargement à échoué
+
+Send a notification when a download finished
+Notifier quand un téléchargement est fini
+
+Disable the LED when the notification is sent
+Désactiver la LED quand la notification est envoyée
+
+Inactivity
+Mode Inactif
+
+Enable top screen sleep after inactivity
+Mettre l'écran supérieur en veille en mode inactif
+
+Enable bottom screen sleep after inactivity
+Mettre l'écran inférieur en veille en mode inactif
+
+Dim the LEDs after inactivity
+Affaiblir les LEDs en mode inactif
+
+Allow sounds on inactivity mode
+Autoriser les sons en mode inactif
+
+Go into inactivity mode after %.0fs
+Aller en mode inactif après %.0fs
+
+Turn off the music if the volume slider is too low
+Eteindre la musique si le volume est trop bas
+
+Update eShop music
+Mettre à jour la musique de l'eShop
+
+You need to restart freeShop to update the eShop music\n\nWould you like to do this now?
+Vous devez redémarrer freeShop pour mettre à jour la musique de l'eShop.\n\nRedémarrer maintenant ?
+
+Allow music on inactivity mode
+Autoriser la musique en mode inactif
+
+Feature
+Fonctions
+
+Publisher
+Editeur
+
+Feature
+Fonctions
+
+Publisher
+Editeur
+
+Installed
+Installés
+
+Game List
+Liste de jeu
+
+Sorting settings saved
+Paramètres de tri sauvegardés
+
+Sorting settings reset
+Paramètres de tri réinitialisés
+
+Download title keys from multiple URLs
+Télécharger les title keys depuis plusieurs URLs
+
+Show game informations in game info screen
+Afficher les infos du jeu dans l'écran d'info de jeu
+
+Restart freeShop
+Redémarrer le freeShop
+
+You need to restart freeShop\n\nWould you like to do this now?
+Vous devez redémarrer le freeShop\n\nRedémarrer maintenant ?

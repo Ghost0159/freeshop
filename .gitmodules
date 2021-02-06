@@ -1,0 +1,12 @@
+[submodule "external/tween-engine"]
+	path = external/tween-engine
+	url = https://github.com/cpp3ds/universal-tween-engine-cpp.git
+[submodule "external/rapidjson"]
+	path = external/rapidjson
+	url = https://github.com/miloyip/rapidjson.git
+[submodule "external/GWEN"]
+	path = external/GWEN
+	url = https://github.com/cpp3ds/GWEN.git
+[submodule "external/quirc"]
+	path = external/quirc
+	url = https://github.com/dlbeer/quirc.git
