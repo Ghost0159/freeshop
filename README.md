@@ -27,4 +27,4 @@ To build the emulator or unit tests, simply change the relevant flags from "OFF"
 
 ### Credit & Thanks
 
-All the people that helped make this possible [listed here](https://notabug.org/evi/freeShop/src/master/CREDITS.md).
+All the people that helped make this possible [listed here](https://github.com/Ghost0159/freeshop/blob/master/CREDITS.md).
