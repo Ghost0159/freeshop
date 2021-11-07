@@ -20,7 +20,7 @@ To build from source on a Linux/UNIX-based system, run the following commands:
 
 	mkdir -p build
 	cd build
-	cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_EMULATOR=OFF -DBUILD_TESTS=OFF ..
+	cmake -DCMAKE_BUILD_TYPE=Release -DBUILD_EMULATOR=OFF -DBUILD_TESTS=OFF ...
 	make -j4
 
 To build the emulator or unit tests, simply change the relevant flags from "OFF" to "ON".
